@@ -128,7 +128,9 @@
           }
           else{
             userlink.innerText=currentUser.fullname;
+            if(currentUser.category=="clg"){
             header.innerText="Upload Your Project";
+             }
             // header.classList.add("account a")
             userlink.classList.replace("btn","nav-link");
             userlink.classList.add("account");
